@@ -1,0 +1,147 @@
+/* remember that style sheets cascade, so whatever is on the bottom will override whats on top. Don't have multiple statements for the same element. Organization and hierarchy are key, start with larger elements and work your way down.
+
+Do they best you can with this, talk with each other and help each other. Most colors and fonts are provided for you. Use adobe color to find the other colors from the sample image.*/
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(219, 233, 255);
+}
+
+nav  {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style: normal;
+    margin: 16px;
+    color: #047F8C;
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  width: 100%;
+  padding-top: 20px;
+}
+
+
+header div {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style: normal;
+    text-align: center;
+    margin: 37px;
+    color: #000000;
+}
+section article p  {
+    font-family: "Lato", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    margin: 15px;
+    color: #000000;
+}
+aside p {
+    font-family: "Lato", sans-serif;
+    font-weight:400;
+    font-style: normal;
+    margin: 15px;
+    color: #000000;
+}
+a {
+    text-decoration: none;
+}
+
+h3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style: normal;
+    margin: 18px;
+    color: #047F8C;
+}
+h2 {
+    font-family: "Lato", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:700;
+    font-style: normal;
+    margin: 22.5px;
+    color: #000000;
+}
+.three {
+  display: flex;           
+  gap: 15px;          
+  width: 100%; 
+  height: auto;
+  margin-bottom: 30px;
+       
+}
+
+p {
+    font-family: "Lato", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    margin: 15px;
+    color: #000000;
+}
+
+.Issues {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight:600;
+    font-style: normal;
+    margin: 16px;
+    color: #000000;
+    line-height: 1.6;
+    padding-left: 20px;
+}
+
+
+footer, .footer {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  text-align: center;
+  color: #000000;
+  background-color: #04ADBF  ; 
+  padding: 40px 20px  ;
+  width: 100%  ;
+  box-sizing: border-box  ;
+  margin: 0  ;
+}
+
+.social-links {
+  margin-bottom: 20px  ;
+  background: transparent  ;
+}
+
+.footer a, .social-links a, .footer-copyright a {
+  color: #000000  ;           
+  text-decoration: none  ;
+  background: transparent  ;    
+  background-color: transparent  ;
+  padding: 0 15px  ;          
+  display: inline-block;
+}
+
+.footer hr {
+  border: 0  ;
+  border-top: 1px solid rgba(255, 255, 255, 0.4)  ;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto 20px auto  ;
+  background: transparent  ;
+}
+
+.footer-copyright {
+  font-size: 15px  ;
+  font-weight: 400  ;
+  color: #000000  ;
+  background: transparent  ;   
+  background-color: transparent  ;
+  margin: 0  ;
+  padding: 0  ;
+}
+
+.footer-copyright a {
+  padding: 0  ;
+  display: inline;
+}
